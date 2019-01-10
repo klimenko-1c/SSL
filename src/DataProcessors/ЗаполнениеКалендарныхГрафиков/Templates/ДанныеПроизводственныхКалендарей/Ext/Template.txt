@@ -17,6 +17,7 @@
 	<Item Calendar="01" Year="2019" DayType="Предпраздничный" Date="20191004" SwapDate=""/>
 	<Item Calendar="01" Year="2019" DayType="Праздник" Date="20191005" SwapDate="20191007"/>
 	<Item Calendar="01" Year="2019" DayType="Суббота" Date="20191007" SwapDate="20191005"/>
+	<Item Calendar="01" Year="2020" DayType="Праздник" Date="20201005" SwapDate=""/>
 	<Item Calendar="02" Year="2014" DayType="Праздник" Date="20140728" SwapDate=""/>
 	<Item Calendar="02" Year="2014" DayType="Предпраздничный" Date="20141003" SwapDate=""/>
 	<Item Calendar="02" Year="2014" DayType="Праздник" Date="20141004" SwapDate="20141006"/>
@@ -53,6 +54,8 @@
 	<Item Calendar="02" Year="2019" DayType="Воскресенье" Date="20190812" SwapDate="20190811"/>
 	<Item Calendar="02" Year="2019" DayType="Предпраздничный" Date="20191010" SwapDate=""/>
 	<Item Calendar="02" Year="2019" DayType="Праздник" Date="20191011" SwapDate=""/>
+	<Item Calendar="02" Year="2020" DayType="Праздник" Date="20201011" SwapDate="20201012"/>
+	<Item Calendar="02" Year="2020" DayType="Воскресенье" Date="20201012" SwapDate="20201011"/>
 	<Item Calendar="03" Year="2016" DayType="Предпраздничный" Date="20160208" SwapDate=""/>
 	<Item Calendar="03" Year="2016" DayType="Праздник" Date="20160209" SwapDate=""/>
 	<Item Calendar="03" Year="2017" DayType="Праздник" Date="20170227" SwapDate=""/>
@@ -60,6 +63,8 @@
 	<Item Calendar="03" Year="2018" DayType="Праздник" Date="20180216" SwapDate=""/>
 	<Item Calendar="03" Year="2019" DayType="Предпраздничный" Date="20190204" SwapDate=""/>
 	<Item Calendar="03" Year="2019" DayType="Праздник" Date="20190205" SwapDate=""/>
+	<Item Calendar="03" Year="2020" DayType="Праздник" Date="20200224" SwapDate="20200225"/>
+	<Item Calendar="03" Year="2020" DayType="Воскресенье" Date="20200225" SwapDate="20200224"/>
 	<Item Calendar="04" Year="2016" DayType="Праздник" Date="20160214" SwapDate="20160215"/>
 	<Item Calendar="04" Year="2016" DayType="Воскресенье" Date="20160215" SwapDate="20160214"/>
 	<Item Calendar="04" Year="2017" DayType="Предпраздничный" Date="20170203" SwapDate=""/>
@@ -103,6 +108,10 @@
 	<Item Calendar="05" Year="2019" DayType="Воскресенье" Date="20190812" SwapDate="20190811"/>
 	<Item Calendar="05" Year="2019" DayType="Праздник" Date="20190915" SwapDate="20190916"/>
 	<Item Calendar="05" Year="2019" DayType="Воскресенье" Date="20190916" SwapDate="20190915"/>
+	<Item Calendar="05" Year="2020" DayType="Праздник" Date="20200726" SwapDate="20200727"/>
+	<Item Calendar="05" Year="2020" DayType="Воскресенье" Date="20200727" SwapDate="20200726"/>
+	<Item Calendar="05" Year="2020" DayType="Предпраздничный" Date="20200914" SwapDate=""/>
+	<Item Calendar="05" Year="2020" DayType="Праздник" Date="20200915" SwapDate=""/>
 	<Item Calendar="06" Year="2016" DayType="Предпраздничный" Date="20160705" SwapDate=""/>
 	<Item Calendar="06" Year="2016" DayType="Праздник" Date="20160706" SwapDate=""/>
 	<Item Calendar="06" Year="2016" DayType="Праздник" Date="20160707" SwapDate=""/>
@@ -151,6 +160,10 @@
 	<Item Calendar="07" Year="2019" DayType="Воскресенье" Date="20190812" SwapDate="20190811"/>
 	<Item Calendar="07" Year="2019" DayType="Праздник" Date="20190901" SwapDate=""/>
 	<Item Calendar="07" Year="2019" DayType="Праздник" Date="20190920" SwapDate=""/>
+	<Item Calendar="07" Year="2020" DayType="Праздник" Date="20200328" SwapDate=""/>
+	<Item Calendar="07" Year="2020" DayType="Праздник" Date="20200521" SwapDate=""/>
+	<Item Calendar="07" Year="2020" DayType="Праздник" Date="20200901" SwapDate=""/>
+	<Item Calendar="07" Year="2020" DayType="Праздник" Date="20200920" SwapDate=""/>
 	<Item Calendar="08" Year="2016" DayType="Предпраздничный" Date="20160208" SwapDate=""/>
 	<Item Calendar="08" Year="2016" DayType="Праздник" Date="20160209" SwapDate=""/>
 	<Item Calendar="08" Year="2016" DayType="Предпраздничный" Date="20160404" SwapDate=""/>
@@ -187,6 +200,11 @@
 	<Item Calendar="08" Year="2019" DayType="Предпраздничный" Date="20191219" SwapDate=""/>
 	<Item Calendar="08" Year="2019" DayType="Праздник" Date="20191220" SwapDate=""/>
 	<Item Calendar="08" Year="2019" DayType="Нерабочий" Date="20191228" SwapDate=""/>
+	<Item Calendar="08" Year="2020" DayType="Праздник" Date="20200224" SwapDate="20200225"/>
+	<Item Calendar="08" Year="2020" DayType="Воскресенье" Date="20200225" SwapDate="20200224"/>
+	<Item Calendar="08" Year="2020" DayType="Праздник" Date="20200405" SwapDate="20200406"/>
+	<Item Calendar="08" Year="2020" DayType="Воскресенье" Date="20200406" SwapDate="20200405"/>
+	<Item Calendar="08" Year="2020" DayType="Нерабочий" Date="20201228" SwapDate=""/>
 	<Item Calendar="09" Year="2016" DayType="Праздник" Date="20160503" SwapDate="20160504"/>
 	<Item Calendar="09" Year="2016" DayType="Суббота" Date="20160504" SwapDate="20160503"/>
 	<Item Calendar="09" Year="2016" DayType="Нерабочий" Date="20160705" SwapDate=""/>
@@ -212,6 +230,9 @@
 	<Item Calendar="09" Year="2019" DayType="Предпраздничный" Date="20190906" SwapDate=""/>
 	<Item Calendar="09" Year="2019" DayType="Праздник" Date="20190907" SwapDate="20190909"/>
 	<Item Calendar="09" Year="2019" DayType="Суббота" Date="20190909" SwapDate="20190907"/>
+	<Item Calendar="09" Year="2020" DayType="Нерабочий" Date="20200428" SwapDate=""/>
+	<Item Calendar="09" Year="2020" DayType="Праздник" Date="20200503" SwapDate="20200505"/>
+	<Item Calendar="09" Year="2020" DayType="Воскресенье" Date="20200505" SwapDate="20200503"/>
 	<Item Calendar="11" Year="2016" DayType="Праздник" Date="20160822" SwapDate=""/>
 	<Item Calendar="11" Year="2017" DayType="Предпраздничный" Date="20170821" SwapDate=""/>
 	<Item Calendar="11" Year="2017" DayType="Праздник" Date="20170822" SwapDate=""/>
@@ -219,6 +240,8 @@
 	<Item Calendar="11" Year="2018" DayType="Праздник" Date="20180822" SwapDate=""/>
 	<Item Calendar="11" Year="2019" DayType="Предпраздничный" Date="20190821" SwapDate=""/>
 	<Item Calendar="11" Year="2019" DayType="Праздник" Date="20190822" SwapDate=""/>
+	<Item Calendar="11" Year="2020" DayType="Предпраздничный" Date="20200821" SwapDate=""/>
+	<Item Calendar="11" Year="2020" DayType="Праздник" Date="20200822" SwapDate=""/>
 	<Item Calendar="14" Year="2016" DayType="Предпраздничный" Date="20160426" SwapDate=""/>
 	<Item Calendar="14" Year="2016" DayType="Праздник" Date="20160427" SwapDate=""/>
 	<Item Calendar="14" Year="2016" DayType="Предпраздничный" Date="20160620" SwapDate=""/>
@@ -236,6 +259,9 @@
 	<Item Calendar="14" Year="2019" DayType="Суббота" Date="20190429" SwapDate="20190427"/>
 	<Item Calendar="14" Year="2019" DayType="Предпраздничный" Date="20190620" SwapDate=""/>
 	<Item Calendar="14" Year="2019" DayType="Праздник" Date="20190621" SwapDate=""/>
+	<Item Calendar="14" Year="2020" DayType="Праздник" Date="20200427" SwapDate=""/>
+	<Item Calendar="14" Year="2020" DayType="Праздник" Date="20200621" SwapDate="20200622"/>
+	<Item Calendar="14" Year="2020" DayType="Воскресенье" Date="20200622" SwapDate="20200621"/>
 	<Item Calendar="15" Year="2018" DayType="Праздник" Date="20181119" SwapDate=""/>
 	<Item Calendar="15" Year="2019" DayType="Праздник" Date="20191118" SwapDate=""/>
 	<Item Calendar="16" Year="2016" DayType="Предпраздничный" Date="20160704" SwapDate=""/>
@@ -265,6 +291,9 @@
 	<Item Calendar="16" Year="2019" DayType="Праздник" Date="20190830" SwapDate=""/>
 	<Item Calendar="16" Year="2019" DayType="Предпраздничный" Date="20191105" SwapDate=""/>
 	<Item Calendar="16" Year="2019" DayType="Праздник" Date="20191106" SwapDate=""/>
+	<Item Calendar="16" Year="2020" DayType="Праздник" Date="20200830" SwapDate=""/>
+	<Item Calendar="16" Year="2020" DayType="Предпраздничный" Date="20201105" SwapDate=""/>
+	<Item Calendar="16" Year="2020" DayType="Праздник" Date="20201106" SwapDate=""/>
 	<Item Calendar="17" Year="2016" DayType="Предпраздничный" Date="20160208" SwapDate=""/>
 	<Item Calendar="17" Year="2016" DayType="Праздник" Date="20160209" SwapDate=""/>
 	<Item Calendar="17" Year="2016" DayType="Предпраздничный" Date="20160505" SwapDate=""/>
@@ -295,6 +324,13 @@
 	<Item Calendar="17" Year="2019" DayType="Праздник" Date="20190506" SwapDate=""/>
 	<Item Calendar="17" Year="2019" DayType="Предпраздничный" Date="20190814" SwapDate=""/>
 	<Item Calendar="17" Year="2019" DayType="Праздник" Date="20190815" SwapDate=""/>
+	<Item Calendar="17" Year="2020" DayType="Праздник" Date="20200224" SwapDate="20200225"/>
+	<Item Calendar="17" Year="2020" DayType="Воскресенье" Date="20200225" SwapDate="20200224"/>
+	<Item Calendar="17" Year="2020" DayType="Предпраздничный" Date="20200505" SwapDate=""/>
+	<Item Calendar="17" Year="2020" DayType="Праздник" Date="20200506" SwapDate=""/>
+	<Item Calendar="17" Year="2020" DayType="Предпраздничный" Date="20200814" SwapDate=""/>
+	<Item Calendar="17" Year="2020" DayType="Праздник" Date="20200815" SwapDate="20200817"/>
+	<Item Calendar="17" Year="2020" DayType="Суббота" Date="20200817" SwapDate="20200815"/>
 	<Item Calendar="20" Year="2016" DayType="Предпраздничный" Date="20160322" SwapDate=""/>
 	<Item Calendar="20" Year="2016" DayType="Праздник" Date="20160323" SwapDate=""/>
 	<Item Calendar="20" Year="2016" DayType="Предпраздничный" Date="20160415" SwapDate=""/>
@@ -338,6 +374,9 @@
 	<Item Calendar="20" Year="2019" DayType="Суббота" Date="20190325" SwapDate="20190323"/>
 	<Item Calendar="20" Year="2019" DayType="Предпраздничный" Date="20190415" SwapDate=""/>
 	<Item Calendar="20" Year="2019" DayType="Праздник" Date="20190416" SwapDate=""/>
+	<Item Calendar="20" Year="2020" DayType="Праздник" Date="20200323" SwapDate=""/>
+	<Item Calendar="20" Year="2020" DayType="Предпраздничный" Date="20200415" SwapDate=""/>
+	<Item Calendar="20" Year="2020" DayType="Праздник" Date="20200416" SwapDate=""/>
 	<Item Calendar="21" Year="2016" DayType="Предпраздничный" Date="20160623" SwapDate=""/>
 	<Item Calendar="21" Year="2016" DayType="Праздник" Date="20160624" SwapDate=""/>
 	<Item Calendar="21" Year="2017" DayType="Предпраздничный" Date="20170623" SwapDate=""/>
@@ -346,6 +385,8 @@
 	<Item Calendar="21" Year="2018" DayType="Праздник" Date="20180624" SwapDate="20180625"/>
 	<Item Calendar="21" Year="2018" DayType="Воскресенье" Date="20180625" SwapDate="20180624"/>
 	<Item Calendar="21" Year="2019" DayType="Праздник" Date="20190624" SwapDate=""/>
+	<Item Calendar="21" Year="2020" DayType="Предпраздничный" Date="20200623" SwapDate=""/>
+	<Item Calendar="21" Year="2020" DayType="Праздник" Date="20200624" SwapDate=""/>
 	<Item Calendar="26" Year="2016" DayType="Праздник" Date="20160510" SwapDate=""/>
 	<Item Calendar="26" Year="2017" DayType="Предпраздничный" Date="20170424" SwapDate=""/>
 	<Item Calendar="26" Year="2017" DayType="Праздник" Date="20170425" SwapDate=""/>
@@ -353,6 +394,8 @@
 	<Item Calendar="26" Year="2018" DayType="Праздник" Date="20180417" SwapDate=""/>
 	<Item Calendar="26" Year="2019" DayType="Предпраздничный" Date="20190506" SwapDate=""/>
 	<Item Calendar="26" Year="2019" DayType="Праздник" Date="20190507" SwapDate=""/>
+	<Item Calendar="26" Year="2020" DayType="Предпраздничный" Date="20200427" SwapDate=""/>
+	<Item Calendar="26" Year="2020" DayType="Праздник" Date="20200428" SwapDate=""/>
 	<Item Calendar="58" Year="2016" DayType="Праздник" Date="20160510" SwapDate=""/>
 	<Item Calendar="58" Year="2017" DayType="Предпраздничный" Date="20170424" SwapDate=""/>
 	<Item Calendar="58" Year="2017" DayType="Праздник" Date="20170425" SwapDate=""/>
@@ -360,6 +403,8 @@
 	<Item Calendar="58" Year="2018" DayType="Праздник" Date="20180417" SwapDate=""/>
 	<Item Calendar="58" Year="2019" DayType="Предпраздничный" Date="20190506" SwapDate=""/>
 	<Item Calendar="58" Year="2019" DayType="Праздник" Date="20190507" SwapDate=""/>
+	<Item Calendar="58" Year="2020" DayType="Предпраздничный" Date="20200427" SwapDate=""/>
+	<Item Calendar="58" Year="2020" DayType="Праздник" Date="20200428" SwapDate=""/>
 	<Item Calendar="64" Year="2016" DayType="Праздник" Date="20160510" SwapDate=""/>
 	<Item Calendar="64" Year="2017" DayType="Предпраздничный" Date="20170424" SwapDate=""/>
 	<Item Calendar="64" Year="2017" DayType="Праздник" Date="20170425" SwapDate=""/>
@@ -367,6 +412,8 @@
 	<Item Calendar="64" Year="2018" DayType="Праздник" Date="20180417" SwapDate=""/>
 	<Item Calendar="64" Year="2019" DayType="Предпраздничный" Date="20190506" SwapDate=""/>
 	<Item Calendar="64" Year="2019" DayType="Праздник" Date="20190507" SwapDate=""/>
+	<Item Calendar="64" Year="2020" DayType="Предпраздничный" Date="20200427" SwapDate=""/>
+	<Item Calendar="64" Year="2020" DayType="Праздник" Date="20200428" SwapDate=""/>
 	<Item Calendar="75" Year="2016" DayType="Предпраздничный" Date="20160208" SwapDate=""/>
 	<Item Calendar="75" Year="2016" DayType="Праздник" Date="20160209" SwapDate=""/>
 	<Item Calendar="75" Year="2017" DayType="Праздник" Date="20170227" SwapDate=""/>
@@ -374,6 +421,8 @@
 	<Item Calendar="75" Year="2018" DayType="Праздник" Date="20180216" SwapDate=""/>
 	<Item Calendar="75" Year="2019" DayType="Предпраздничный" Date="20190204" SwapDate=""/>
 	<Item Calendar="75" Year="2019" DayType="Праздник" Date="20190205" SwapDate=""/>
+	<Item Calendar="75" Year="2020" DayType="Праздник" Date="20200224" SwapDate="20200225"/>
+	<Item Calendar="75" Year="2020" DayType="Воскресенье" Date="20200225" SwapDate="20200224"/>
 	<Item Calendar="85" Year="2016" DayType="Предпраздничный" Date="20160208" SwapDate=""/>
 	<Item Calendar="85" Year="2016" DayType="Праздник" Date="20160209" SwapDate=""/>
 	<Item Calendar="85" Year="2017" DayType="Праздник" Date="20170227" SwapDate=""/>
@@ -381,6 +430,8 @@
 	<Item Calendar="85" Year="2018" DayType="Праздник" Date="20180216" SwapDate=""/>
 	<Item Calendar="85" Year="2019" DayType="Предпраздничный" Date="20190204" SwapDate=""/>
 	<Item Calendar="85" Year="2019" DayType="Праздник" Date="20190205" SwapDate=""/>
+	<Item Calendar="85" Year="2020" DayType="Праздник" Date="20200224" SwapDate="20200225"/>
+	<Item Calendar="85" Year="2020" DayType="Воскресенье" Date="20200225" SwapDate="20200224"/>
 	<Item Calendar="91" Year="2016" DayType="Предпраздничный" Date="20160317" SwapDate=""/>
 	<Item Calendar="91" Year="2016" DayType="Праздник" Date="20160318" SwapDate=""/>
 	<Item Calendar="91" Year="2016" DayType="Праздник" Date="20160620" SwapDate=""/>
@@ -409,6 +460,8 @@
 	<Item Calendar="91" Year="2019" DayType="Праздник" Date="20190604" SwapDate=""/>
 	<Item Calendar="91" Year="2019" DayType="Праздник" Date="20190617" SwapDate=""/>
 	<Item Calendar="91" Year="2019" DayType="Праздник" Date="20190811" SwapDate=""/>
+	<Item Calendar="91" Year="2020" DayType="Предпраздничный" Date="20200317" SwapDate=""/>
+	<Item Calendar="91" Year="2020" DayType="Праздник" Date="20200318" SwapDate=""/>
 	<Item Calendar="92" Year="2016" DayType="Предпраздничный" Date="20160317" SwapDate=""/>
 	<Item Calendar="92" Year="2016" DayType="Праздник" Date="20160318" SwapDate=""/>
 	<Item Calendar="92" Year="2017" DayType="Предпраздничный" Date="20170317" SwapDate=""/>
@@ -417,6 +470,8 @@
 	<Item Calendar="92" Year="2018" DayType="Праздник" Date="20180318" SwapDate="20180319"/>
 	<Item Calendar="92" Year="2018" DayType="Воскресенье" Date="20180319" SwapDate="20180318"/>
 	<Item Calendar="92" Year="2019" DayType="Праздник" Date="20190318" SwapDate=""/>
+	<Item Calendar="92" Year="2020" DayType="Предпраздничный" Date="20200317" SwapDate=""/>
+	<Item Calendar="92" Year="2020" DayType="Праздник" Date="20200318" SwapDate=""/>
 	<Item Calendar="РФ" Year="2001" DayType="Праздник" Date="20010101" SwapDate=""/>
 	<Item Calendar="РФ" Year="2001" DayType="Праздник" Date="20010102" SwapDate=""/>
 	<Item Calendar="РФ" Year="2001" DayType="Праздник" Date="20010107" SwapDate="20010108"/>
@@ -864,4 +919,28 @@
 	<Item Calendar="РФ" Year="2019" DayType="Праздник" Date="20190612" SwapDate=""/>
 	<Item Calendar="РФ" Year="2019" DayType="Праздник" Date="20191104" SwapDate=""/>
 	<Item Calendar="РФ" Year="2019" DayType="Предпраздничный" Date="20191231" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200101" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200102" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200103" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200104" SwapDate="20200504"/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200105" SwapDate="20200512"/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200106" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200107" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200108" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200223" SwapDate="20200224"/>
+	<Item Calendar="РФ" Year="2020" DayType="Воскресенье" Date="20200224" SwapDate="20200223"/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200308" SwapDate="20200309"/>
+	<Item Calendar="РФ" Year="2020" DayType="Воскресенье" Date="20200309" SwapDate="20200308"/>
+	<Item Calendar="РФ" Year="2020" DayType="Предпраздничный" Date="20200430" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200501" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Суббота" Date="20200504" SwapDate="20200104"/>
+	<Item Calendar="РФ" Year="2020" DayType="Предпраздничный" Date="20200508" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200509" SwapDate="20200511"/>
+	<Item Calendar="РФ" Year="2020" DayType="Суббота" Date="20200511" SwapDate="20200509"/>
+	<Item Calendar="РФ" Year="2020" DayType="Воскресенье" Date="20200512" SwapDate="20200105"/>
+	<Item Calendar="РФ" Year="2020" DayType="Предпраздничный" Date="20200611" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20200612" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Предпраздничный" Date="20201103" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Праздник" Date="20201104" SwapDate=""/>
+	<Item Calendar="РФ" Year="2020" DayType="Предпраздничный" Date="20201231" SwapDate=""/>
 </Items>

@@ -114,6 +114,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.РазрешенныйНаборГруппПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.РазрешенныйПустойНаборГруппДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ТаблицыРасширенийСОграничениемДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОжидаемаяДлительнаяОперация16</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ОжидаемаяДлительнаяОперация48</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

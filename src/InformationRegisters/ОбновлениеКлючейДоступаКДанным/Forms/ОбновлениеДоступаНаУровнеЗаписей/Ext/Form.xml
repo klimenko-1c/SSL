@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.6">
 	<Width>80</Width>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
 	<AutoURL>false</AutoURL>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
@@ -85,156 +86,88 @@
 				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="РегламентноеЗадание" id="148">
+		<UsualGroup name="ВерхняяПанельФормы" id="148">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Регламентное задание</v8:content>
+					<v8:content>Верхняя панель формы</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<VerticalAlign>Center</VerticalAlign>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="РегламентноеЗаданиеРасширеннаяПодсказка" id="149"/>
+			<ExtendedTooltip name="ВерхняяПанельФормыРасширеннаяПодсказка" id="149"/>
 			<ChildItems>
-				<PictureDecoration name="РегламентноеЗаданиеКартинка" id="158">
-					<Width>2</Width>
-					<Height>1</Height>
-					<Title formatted="false">
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Регламентное задание (Картинка)</v8:content>
-						</v8:item>
-					</Title>
-					<PictureSize>AutoSize</PictureSize>
-					<Picture>
-						<xr:Ref>StdPicture.ScheduledJob</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
-					<ContextMenu name="РегламентноеЗаданиеКартинкаКонтекстноеМеню" id="159"/>
-					<ExtendedTooltip name="РегламентноеЗаданиеКартинкаРасширеннаяПодсказка" id="160"/>
-				</PictureDecoration>
-				<LabelField name="ПоследнееЗавершениеРегламентногоЗадания" id="128">
-					<DataPath>ПоследнееЗавершениеРегламентногоЗадания</DataPath>
-					<Visible>false</Visible>
+				<UsualGroup name="ОбновлениеДоступаНеВыполняется" id="215">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Последнее завершение</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Последнее завершение работы регламентного задания "Обновление доступа"</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Format>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ДЛФ=DT</v8:content>
-						</v8:item>
-					</Format>
-					<ContextMenu name="ПоследнееЗавершениеРегламентногоЗаданияКонтекстноеМеню" id="129"/>
-					<ExtendedTooltip name="ПоследнееЗавершениеРегламентногоЗаданияРасширеннаяПодсказка" id="130"/>
-				</LabelField>
-				<LabelField name="ПоследнееЗавершениеРегламентногоЗаданияВремя" id="170">
-					<DataPath>ПоследнееЗавершениеРегламентногоЗаданияВремя</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Последнее завершение</v8:content>
-						</v8:item>
-					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Последнее завершение работы регламентного задания
-"Обновление доступа на уровне записей"</v8:content>
-						</v8:item>
-					</ToolTip>
-					<Width>7</Width>
-					<Format>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ДЛФ=T</v8:content>
-						</v8:item>
-					</Format>
-					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-					<ContextMenu name="ПоследнееЗавершениеРегламентногоЗаданияВремяКонтекстноеМеню" id="171"/>
-					<ExtendedTooltip name="ПоследнееЗавершениеРегламентногоЗаданияВремяРасширеннаяПодсказка" id="172"/>
-				</LabelField>
-				<LabelField name="ПоследнееВыполнениеПродолжительность" id="229">
-					<DataPath>ПоследнееВыполнениеПродолжительность</DataPath>
-					<UserVisible>
-						<xr:Common>false</xr:Common>
-					</UserVisible>
-					<TitleLocation>None</TitleLocation>
-					<Width>2</Width>
-					<HorizontalStretch>true</HorizontalStretch>
-					<ContextMenu name="ПоследнееВыполнениеПродолжительностьКонтекстноеМеню" id="230"/>
-					<ExtendedTooltip name="ПоследнееВыполнениеПродолжительностьРасширеннаяПодсказка" id="231"/>
-				</LabelField>
-				<UsualGroup name="РегламентноеЗаданиеЗавершилосьОшибкой" id="131">
-					<Visible>false</Visible>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Регламентное задание завершилось ошибкой</v8:content>
+							<v8:content>Обновление доступа не выполняется</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
-					<VerticalAlign>Center</VerticalAlign>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="РегламентноеЗаданиеЗавершилосьОшибкойРасширеннаяПодсказка" id="132"/>
+					<ExtendedTooltip name="ОбновлениеДоступаНеВыполняетсяРасширеннаяПодсказка" id="216"/>
 					<ChildItems>
-						<PictureDecoration name="РегламентноеЗаданиеЗавершилосьОшибкойКартинка" id="133">
+						<PictureDecoration name="ОбновлениеДоступаНеВыполняетсяКартинка" id="245">
+							<Width>2</Width>
+							<Height>1</Height>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Регламентное задание не работает (Картинка)</v8:content>
+									<v8:content>Обновление доступа не выполняется (Картинка)</v8:content>
 								</v8:item>
 							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регламентное или фоновое задание</v8:content>
+								</v8:item>
+							</ToolTip>
+							<PictureSize>AutoSize</PictureSize>
 							<Picture>
-								<xr:Ref>StdPicture.Stop</xr:Ref>
+								<xr:Ref>StdPicture.ScheduledJob</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
-							<ContextMenu name="РегламентноеЗаданиеЗавершилосьОшибкойКартинкаКонтекстноеМеню" id="134"/>
-							<ExtendedTooltip name="РегламентноеЗаданиеЗавершилосьОшибкойКартинкаРасширеннаяПодсказка" id="135"/>
+							<ContextMenu name="ОбновлениеДоступаНеВыполняетсяКартинкаКонтекстноеМеню" id="246"/>
+							<ExtendedTooltip name="ОбновлениеДоступаНеВыполняетсяКартинкаРасширеннаяПодсказка" id="247"/>
 						</PictureDecoration>
-						<Button name="ПоказатьТекстОшибкиЗавершенияРегламентногоЗадания" id="139">
-							<Type>Hyperlink</Type>
-							<CommandName>Form.Command.ПоказатьТекстОшибкиЗавершенияРегламентногоЗадания</CommandName>
+						<UsualGroup name="ГруппаКоличествоПотоковОбновленияДоступа1" id="293">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Ошибка...</v8:content>
+									<v8:content>1 поток</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="ПоказатьТекстОшибкиЗавершенияРегламентногоЗаданияРасширеннаяПодсказка" id="140"/>
-						</Button>
-						<LabelDecoration name="Отступ1" id="161">
-							<Width>1</Width>
-							<ContextMenu name="Отступ1КонтекстноеМеню" id="162"/>
-							<ExtendedTooltip name="Отступ1РасширеннаяПодсказка" id="163"/>
-						</LabelDecoration>
-					</ChildItems>
-				</UsualGroup>
-				<UsualGroup name="РегламентноеЗаданиеНеВыполняется" id="215">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Регламентное задание выполняется</v8:content>
-						</v8:item>
-					</Title>
-					<Group>Horizontal</Group>
-					<Representation>None</Representation>
-					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="РегламентноеЗаданиеНеВыполняетсяРасширеннаяПодсказка" id="216"/>
-					<ChildItems>
-						<LabelDecoration name="ПояснениеРегламентноеЗаданиеНеВыполняется" id="223">
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа количество потоков обновления доступа1</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>PopUp</Behavior>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаКоличествоПотоковОбновленияДоступа1РасширеннаяПодсказка" id="294"/>
+							<ChildItems>
+								<InputField name="КоличествоПотоковОбновленияДоступа1" id="295">
+									<DataPath>КоличествоПотоковОбновленияДоступа</DataPath>
+									<ToolTipRepresentation>ShowAuto</ToolTipRepresentation>
+									<ClearButton>true</ClearButton>
+									<SpinButton>true</SpinButton>
+									<MinValue xsi:type="xs:decimal">1</MinValue>
+									<ContextMenu name="КоличествоПотоковОбновленияДоступа1КонтекстноеМеню" id="296"/>
+									<ExtendedTooltip name="КоличествоПотоковОбновленияДоступа1РасширеннаяПодсказка" id="297"/>
+									<Events>
+										<Event name="OnChange">КоличествоПотоковОбновленияДоступаПриИзменении</Event>
+										<Event name="EditTextChange">КоличествоПотоковОбновленияДоступаИзменениеТекстаРедактирования</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="ОбновлениеДоступаНеВыполняетсяНадпись" id="223">
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -247,95 +180,135 @@
 									<v8:content>Пауза между запусками или выполнено 100% обновления</v8:content>
 								</v8:item>
 							</ToolTip>
-							<ContextMenu name="ПояснениеРегламентноеЗаданиеНеВыполняетсяКонтекстноеМеню" id="224"/>
-							<ExtendedTooltip name="ПояснениеРегламентноеЗаданиеНеВыполняетсяРасширеннаяПодсказка" id="225"/>
+							<ContextMenu name="ОбновлениеДоступаНеВыполняетсяНадписьКонтекстноеМеню" id="224"/>
+							<ExtendedTooltip name="ОбновлениеДоступаНеВыполняетсяНадписьРасширеннаяПодсказка" id="225"/>
 						</LabelDecoration>
-						<Button name="ЗапуститьРегламентноеЗаданиеСейчас" id="144">
+						<Button name="ЗапуститьОбновлениеДоступаСейчас" id="144">
 							<Type>Hyperlink</Type>
-							<CommandName>Form.Command.ЗапуститьРегламентноеЗаданиеСейчас</CommandName>
+							<CommandName>Form.Command.ЗапуститьОбновлениеДоступаСейчас</CommandName>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Запустить сейчас</v8:content>
 								</v8:item>
 							</Title>
-							<ExtendedTooltip name="ЗапуститьРегламентноеЗаданиеСейчасРасширеннаяПодсказка" id="145"/>
+							<ExtendedTooltip name="ЗапуститьОбновлениеДоступаСейчасРасширеннаяПодсказка" id="145"/>
 						</Button>
+						<LabelDecoration name="ПоследнееЗавершениеОбновленияДоступа" id="260">
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>(завершено в &lt;b&gt;09:05:03&lt;/&gt; за 1 мин 5 сек)</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПоследнееЗавершениеОбновленияДоступаКонтекстноеМеню" id="261"/>
+							<ExtendedTooltip name="ПоследнееЗавершениеОбновленияДоступаРасширеннаяПодсказка" id="262"/>
+							<Events>
+								<Event name="URLProcessing">ПоследнееЗавершениеОбновленияДоступаОбработкаНавигационнойСсылки</Event>
+							</Events>
+						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
-				<UsualGroup name="РегламентноеЗаданиеВыполняется" id="179">
+				<UsualGroup name="ОбновлениеДоступаВыполняется" id="179">
 					<Visible>false</Visible>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Регламентное задание выполняется</v8:content>
+							<v8:content>Обновление доступа выполняется</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
-					<ExtendedTooltip name="РегламентноеЗаданиеВыполняетсяРасширеннаяПодсказка" id="180"/>
+					<ExtendedTooltip name="ОбновлениеДоступаВыполняетсяРасширеннаяПодсказка" id="180"/>
 					<ChildItems>
-						<PictureDecoration name="КартинкаРегламентноеЗаданиеВыполняется" id="181">
+						<PictureDecoration name="КартинкаФоновоеЗаданиеВыполняется" id="181">
 							<Width>2</Width>
 							<Height>1</Height>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Картинка регламентное задание выполняется</v8:content>
+									<v8:content>Картинка фоновое задание выполняется</v8:content>
 								</v8:item>
 							</Title>
-							<PictureSize>AutoSize</PictureSize>
-							<NonselectedPictureText>
+							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Регламентное задания "Обновление доступа" выполняется</v8:content>
+									<v8:content>Обновление доступа выполняется</v8:content>
 								</v8:item>
-							</NonselectedPictureText>
+							</ToolTip>
+							<PictureSize>AutoSize</PictureSize>
 							<Picture>
 								<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
-							<ContextMenu name="КартинкаРегламентноеЗаданиеВыполняетсяКонтекстноеМеню" id="182"/>
-							<ExtendedTooltip name="КартинкаРегламентноеЗаданиеВыполняетсяРасширеннаяПодсказка" id="183"/>
+							<ContextMenu name="КартинкаФоновоеЗаданиеВыполняетсяКонтекстноеМеню" id="182"/>
+							<ExtendedTooltip name="КартинкаФоновоеЗаданиеВыполняетсяРасширеннаяПодсказка" id="183"/>
 						</PictureDecoration>
-						<PictureDecoration name="КартинкаРегламентноеЗаданиеОжидаетВыполнения" id="187">
+						<PictureDecoration name="КартинкаФоновоеЗаданиеОжидаетВыполнения" id="187">
 							<Visible>false</Visible>
-							<Enabled>false</Enabled>
 							<Width>2</Width>
 							<Height>1</Height>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Картинка регламентное задание ожидает выполнения</v8:content>
+									<v8:content>Картинка фоновое задание ожидает выполнения</v8:content>
 								</v8:item>
 							</Title>
-							<PictureSize>AutoSize</PictureSize>
-							<NonselectedPictureText>
+							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Регламентное задания "Обновление доступа" ожидает в очереди,
-а не выполняется (так происходит, когда очередь слишком большая)</v8:content>
+									<v8:content>Обновление доступа ожидает в очереди, а не выполняется
+(так происходит, когда очередь фоновых заданий слишком большая)</v8:content>
 								</v8:item>
-							</NonselectedPictureText>
+							</ToolTip>
+							<PictureSize>AutoSize</PictureSize>
 							<Picture>
-								<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+								<xr:Ref>CommonPicture.ОжидаемаяДлительнаяОперация48</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
 							</Picture>
-							<ContextMenu name="КартинкаРегламентноеЗаданиеОжидаетВыполненияКонтекстноеМеню" id="188"/>
-							<ExtendedTooltip name="КартинкаРегламентноеЗаданиеОжидаетВыполненияРасширеннаяПодсказка" id="189"/>
+							<ContextMenu name="КартинкаФоновоеЗаданиеОжидаетВыполненияКонтекстноеМеню" id="188"/>
+							<ExtendedTooltip name="КартинкаФоновоеЗаданиеОжидаетВыполненияРасширеннаяПодсказка" id="189"/>
 						</PictureDecoration>
-						<LabelDecoration name="ВремяВыполненияРегламентногоЗадания1" id="226">
+						<UsualGroup name="ГруппаКоличествоПотоковОбновленияДоступа2" id="298">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>1 поток</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<Behavior>PopUp</Behavior>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаКоличествоПотоковОбновленияДоступа2РасширеннаяПодсказка" id="299"/>
+							<ChildItems>
+								<InputField name="КоличествоПотоковОбновленияДоступа2" id="300">
+									<DataPath>КоличествоПотоковОбновленияДоступа</DataPath>
+									<Enabled>false</Enabled>
+									<ToolTipRepresentation>ShowAuto</ToolTipRepresentation>
+									<ClearButton>true</ClearButton>
+									<SpinButton>true</SpinButton>
+									<MinValue xsi:type="xs:decimal">1</MinValue>
+									<ContextMenu name="КоличествоПотоковОбновленияДоступа2КонтекстноеМеню" id="301"/>
+									<ExtendedTooltip name="КоличествоПотоковОбновленияДоступа2РасширеннаяПодсказка" id="302"/>
+									<Events>
+										<Event name="OnChange">КоличествоПотоковОбновленияДоступаПриИзменении</Event>
+										<Event name="EditTextChange">КоличествоПотоковОбновленияДоступаИзменениеТекстаРедактирования</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<LabelDecoration name="ВремяВыполненияФоновогоЗадания1" id="226">
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Выполняется 2 мин 22 сек</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="ВремяВыполненияРегламентногоЗадания1КонтекстноеМеню" id="227"/>
-							<ExtendedTooltip name="ВремяВыполненияРегламентногоЗадания1РасширеннаяПодсказка" id="228"/>
+							<ContextMenu name="ВремяВыполненияФоновогоЗадания1КонтекстноеМеню" id="227"/>
+							<ExtendedTooltip name="ВремяВыполненияФоновогоЗадания1РасширеннаяПодсказка" id="228"/>
 						</LabelDecoration>
-						<LabelDecoration name="ВремяВыполненияРегламентногоЗадания2" id="190">
+						<LabelDecoration name="ВремяВыполненияФоновогоЗадания2" id="190">
 							<Visible>false</Visible>
 							<Title formatted="false">
 								<v8:item>
@@ -343,9 +316,90 @@
 									<v8:content>Выполняется 3 мин 33 сек</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="ВремяВыполненияРегламентногоЗадания2КонтекстноеМеню" id="191"/>
-							<ExtendedTooltip name="ВремяВыполненияРегламентногоЗадания2РасширеннаяПодсказка" id="192"/>
+							<ContextMenu name="ВремяВыполненияФоновогоЗадания2КонтекстноеМеню" id="191"/>
+							<ExtendedTooltip name="ВремяВыполненияФоновогоЗадания2РасширеннаяПодсказка" id="192"/>
 						</LabelDecoration>
+						<Button name="ОстановитьИЗапретитьОбновлениеДоступа" id="195">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ОстановитьИЗапретитьОбновлениеДоступа</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отменить</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ОстановитьИЗапретитьОбновлениеДоступаРасширеннаяПодсказка" id="196"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ОбновлениеДоступаЗапрещено" id="232">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обновление доступа запрещено</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<VerticalAlign>Center</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОбновлениеДоступаЗапрещеноРасширеннаяПодсказка" id="233"/>
+					<ChildItems>
+						<LabelDecoration name="Отступ4" id="234">
+							<Width>1</Width>
+							<ContextMenu name="Отступ4КонтекстноеМеню" id="235"/>
+							<ExtendedTooltip name="Отступ4РасширеннаяПодсказка" id="236"/>
+						</LabelDecoration>
+						<PictureDecoration name="ОбновлениеДоступаЗапрещеноКартинка" id="237">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обновление доступа запрещено (Картинка)</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Запрещено обновление доступа и отключено
+регламентное задание "Обновление доступа на уровне записей"</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Picture>
+								<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ОбновлениеДоступаЗапрещеноКартинкаКонтекстноеМеню" id="238"/>
+							<ExtendedTooltip name="ОбновлениеДоступаЗапрещеноКартинкаРасширеннаяПодсказка" id="239"/>
+						</PictureDecoration>
+						<LabelDecoration name="ОбновлениеДоступаЗапрещеноНадпись" id="240">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обновление запрещено</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Запрещено обновление доступа и отключено
+регламентное задание "Обновление доступа на уровне записей"</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ContextMenu name="ОбновлениеДоступаЗапрещеноНадписьКонтекстноеМеню" id="241"/>
+							<ExtendedTooltip name="ОбновлениеДоступаЗапрещеноНадписьРасширеннаяПодсказка" id="242"/>
+						</LabelDecoration>
+						<Button name="РазрешитьОбновлениеДоступа" id="243">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.РазрешитьОбновлениеДоступа</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Разрешить</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="РазрешитьОбновлениеДоступаРасширеннаяПодсказка" id="244"/>
+						</Button>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="РегламентноеЗаданиеОтключено" id="110">
@@ -374,6 +428,13 @@
 									<v8:content>Регламентное задание отключено (Картинка)</v8:content>
 								</v8:item>
 							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отключено регламентное задание
+"Обновление доступа на уровне записей"</v8:content>
+								</v8:item>
+							</ToolTip>
 							<Picture>
 								<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
 								<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -388,6 +449,13 @@
 									<v8:content>Задание отключено</v8:content>
 								</v8:item>
 							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отключено регламентное задание
+"Обновление доступа на уровне записей"</v8:content>
+								</v8:item>
+							</ToolTip>
 							<ContextMenu name="РегламентноеЗаданиеОтключеноНадписьКонтекстноеМеню" id="113"/>
 							<ExtendedTooltip name="РегламентноеЗаданиеОтключеноНадписьРасширеннаяПодсказка" id="114"/>
 						</LabelDecoration>
@@ -421,20 +489,11 @@
 							<CommandName>Form.Command.РучноеУправление</CommandName>
 							<ExtendedTooltip name="ФормаРучноеУправлениеРасширеннаяПодсказка" id="4"/>
 						</Button>
-						<Button name="ФормаВыключитьРегламентноеЗадание" id="195">
+						<Button name="ФормаОстановитьИЗапретитьОбновлениеДоступа" id="275">
 							<Type>CommandBarButton</Type>
 							<OnlyInAllActions>false</OnlyInAllActions>
-							<CommandName>Form.Command.ОтменитьИВыключитьОбновлениеДоступа</CommandName>
-							<ExtendedTooltip name="ФормаВыключитьРегламентноеЗаданиеРасширеннаяПодсказка" id="196"/>
-						</Button>
-						<Button name="ФормаПоказатьОбработанныеСписки" id="197">
-							<Type>CommandBarButton</Type>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
-							<OnlyInAllActions>false</OnlyInAllActions>
-							<CommandName>Form.Command.ПоказатьОбработанныеСписки</CommandName>
-							<ExtendedTooltip name="ФормаПоказатьОбработанныеСпискиРасширеннаяПодсказка" id="198"/>
+							<CommandName>Form.Command.ОстановитьИЗапретитьОбновлениеДоступа</CommandName>
+							<ExtendedTooltip name="ФормаОстановитьИЗапретитьОбновлениеДоступаРасширеннаяПодсказка" id="276"/>
 						</Button>
 						<Button name="ФормаВывестиСписок" id="59">
 							<Type>CommandBarButton</Type>
@@ -445,18 +504,18 @@
 				</CommandBar>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ОбщийИндикаторОбновления" id="91">
+		<UsualGroup name="ОбщийИндикаторПрогрессаОбновления" id="91">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Общий индикатор обновления</v8:content>
+					<v8:content>Общий индикатор прогресса обновления</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<VerticalAlign>Center</VerticalAlign>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ОбщийИндикаторОбновленияРасширеннаяПодсказка" id="92"/>
+			<ExtendedTooltip name="ОбщийИндикаторПрогрессаОбновленияРасширеннаяПодсказка" id="92"/>
 			<ChildItems>
 				<ProgressBarField name="ВсегоОбновлено" id="88">
 					<DataPath>ВсегоОбновлено</DataPath>
@@ -488,32 +547,34 @@
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="ОбновлениеПрогрессаРасширеннаяПодсказка" id="62"/>
 					<ChildItems>
-						<Page name="ОбновлениеЗавершено" id="63">
+						<Page name="ОбновлениеПрогрессаЗавершено" id="63">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Обновление завершено</v8:content>
+									<v8:content>Обновление прогресса завершено</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
-							<ExtendedTooltip name="ОбновлениеЗавершеноРасширеннаяПодсказка" id="64"/>
+							<ExtendedTooltip name="ОбновлениеПрогрессаЗавершеноРасширеннаяПодсказка" id="64"/>
 							<ChildItems>
-								<Button name="ОбновитьПрогресса" id="84">
+								<Button name="ОбновитьПрогресс" id="84">
 									<Type>Hyperlink</Type>
+									<Height>1</Height>
 									<CommandName>Form.Command.ОбновитьПрогресс</CommandName>
-									<ExtendedTooltip name="ОбновитьПрогрессаРасширеннаяПодсказка" id="85"/>
+									<Font ref="style:SmallTextFont" kind="StyleItem"/>
+									<ExtendedTooltip name="ОбновитьПрогрессРасширеннаяПодсказка" id="85"/>
 								</Button>
 							</ChildItems>
 						</Page>
-						<Page name="ОбновлениеВыполняется" id="65">
+						<Page name="ОбновлениеПрогрессаВыполняется" id="65">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Обновление выполняется</v8:content>
+									<v8:content>Обновление прогресса выполняется</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
-							<ExtendedTooltip name="ОбновлениеВыполняетсяРасширеннаяПодсказка" id="66"/>
+							<ExtendedTooltip name="ОбновлениеПрогрессаВыполняетсяРасширеннаяПодсказка" id="66"/>
 							<ChildItems>
 								<PictureDecoration name="КартинкаОбновлениеПрогресса" id="70">
 									<Width>2</Width>
@@ -527,7 +588,7 @@
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Фоновое задание обновления прогресса выполняется</v8:content>
+											<v8:content>Обновление прогресса выполняется</v8:content>
 										</v8:item>
 									</ToolTip>
 									<PictureSize>AutoSize</PictureSize>
@@ -540,7 +601,6 @@
 								</PictureDecoration>
 								<PictureDecoration name="КартинкаОжиданиеОбновленияПрогресса" id="167">
 									<Visible>false</Visible>
-									<Enabled>false</Enabled>
 									<Width>2</Width>
 									<Height>1</Height>
 									<Title formatted="false">
@@ -552,14 +612,13 @@
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Фоновое задание обновления прогресса
-ожидает в очереди, а не выполняется
-(так происходит, когда очередь слишком большая)</v8:content>
+											<v8:content>Обновление прогресса ожидает в очереди, а не выполняется
+(так происходит, когда очередь фоновых заданий слишком большая)</v8:content>
 										</v8:item>
 									</ToolTip>
 									<PictureSize>AutoSize</PictureSize>
 									<Picture>
-										<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+										<xr:Ref>CommonPicture.ОжидаемаяДлительнаяОперация16</xr:Ref>
 										<xr:LoadTransparent>true</xr:LoadTransparent>
 									</Picture>
 									<ContextMenu name="КартинкаОжиданиеОбновленияПрогрессаКонтекстноеМеню" id="168"/>
@@ -567,7 +626,9 @@
 								</PictureDecoration>
 								<Button name="ОтменитьОбновлениеПрогресса" id="86">
 									<Type>Hyperlink</Type>
+									<Height>1</Height>
 									<CommandName>Form.Command.ОтменитьОбновлениеПрогресса</CommandName>
+									<Font ref="style:SmallTextFont" kind="StyleItem"/>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -580,11 +641,6 @@
 						</Page>
 					</ChildItems>
 				</Pages>
-				<LabelDecoration name="Отступ3" id="76">
-					<Width>1</Width>
-					<ContextMenu name="Отступ3КонтекстноеМеню" id="77"/>
-					<ExtendedTooltip name="Отступ3РасширеннаяПодсказка" id="78"/>
-				</LabelDecoration>
 				<UsualGroup name="Автообновление" id="106">
 					<Title>
 						<v8:item>
@@ -605,6 +661,7 @@
 									<v8:content>Автообновление</v8:content>
 								</v8:item>
 							</Title>
+							<TitleFont ref="style:SmallTextFont" kind="StyleItem"/>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTip>
 								<v8:item>
@@ -628,9 +685,11 @@
 									<v8:content>сек</v8:content>
 								</v8:item>
 							</Title>
+							<TitleFont ref="style:SmallTextFont" kind="StyleItem"/>
 							<TitleLocation>Right</TitleLocation>
 							<SpinButton>true</SpinButton>
 							<MinValue xsi:type="xs:decimal">1</MinValue>
+							<Font ref="style:SmallTextFont" kind="StyleItem"/>
 							<ContextMenu name="ПериодОбновленияПрогрессаКонтекстноеМеню" id="49"/>
 							<ExtendedTooltip name="ПериодОбновленияПрогрессаРасширеннаяПодсказка" id="50"/>
 						</InputField>
@@ -638,32 +697,108 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<CheckBoxField name="РассчитыватьПоКоличествуДанных" id="93">
-			<DataPath>РассчитыватьПоКоличествуДанных</DataPath>
+		<UsualGroup name="РасчетПрогрессаПоКоличествуДанных" id="282">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Рассчитывать прогресс по количеству данных</v8:content>
+					<v8:content>Расчет прогресса по количеству данных</v8:content>
 				</v8:item>
 			</Title>
-			<TitleLocation>Right</TitleLocation>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Рассчитывать прогресс обновления доступа по количеству
+			<Height>1</Height>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="РасчетПрогрессаПоКоличествуДанныхРасширеннаяПодсказка" id="283"/>
+			<ChildItems>
+				<CheckBoxField name="РассчитыватьПоКоличествуДанных" id="93">
+					<DataPath>РассчитыватьПоКоличествуДанных</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рассчитывать прогресс по количеству данных</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Right</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рассчитывать прогресс обновления доступа по количеству
 элементов данных и ключей доступа (медленно).
 
 Когда отключено, тогда прогресс рассчитывается
 только по количеству обработанных списков.</v8:content>
-				</v8:item>
-			</ToolTip>
-			<CheckBoxType>Auto</CheckBoxType>
-			<ContextMenu name="РассчитыватьПоКоличествуДанныхКонтекстноеМеню" id="94"/>
-			<ExtendedTooltip name="РассчитыватьПоКоличествуДанныхРасширеннаяПодсказка" id="95"/>
-			<Events>
-				<Event name="OnChange">РассчитыватьПоКоличествуДанныхПриИзменении</Event>
-			</Events>
-		</CheckBoxField>
+						</v8:item>
+					</ToolTip>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РассчитыватьПоКоличествуДанныхКонтекстноеМеню" id="94"/>
+					<ExtendedTooltip name="РассчитыватьПоКоличествуДанныхРасширеннаяПодсказка" id="95"/>
+					<Events>
+						<Event name="OnChange">РассчитыватьПоКоличествуДанныхПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<UsualGroup name="НастройкиОтображения" id="277">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки отображения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки отображения прогресса по отдельным спискам</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Behavior>PopUp</Behavior>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="НастройкиОтображенияРасширеннаяПодсказка" id="278"/>
+					<ChildItems>
+						<CheckBoxField name="ПоказыватьКоличествоЭлементов" id="279">
+							<DataPath>ПоказыватьКоличествоЭлементов</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПоказыватьКоличествоЭлементовКонтекстноеМеню" id="280"/>
+							<ExtendedTooltip name="ПоказыватьКоличествоЭлементовРасширеннаяПодсказка" id="281"/>
+							<Events>
+								<Event name="OnChange">ПоказыватьКоличествоЭлементовПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<CheckBoxField name="ПоказыватьКоличествоКлючейДоступа" id="287">
+							<DataPath>ПоказыватьКоличествоКлючейДоступа</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПоказыватьКоличествоКлючейДоступаКонтекстноеМеню" id="288"/>
+							<ExtendedTooltip name="ПоказыватьКоличествоКлючейДоступаРасширеннаяПодсказка" id="289"/>
+							<Events>
+								<Event name="OnChange">ПоказыватьКоличествоКлючейДоступаПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<CheckBoxField name="ПоказыватьИмяТаблицы" id="290">
+							<DataPath>ПоказыватьИмяТаблицы</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПоказыватьИмяТаблицыКонтекстноеМеню" id="291"/>
+							<ExtendedTooltip name="ПоказыватьИмяТаблицыРасширеннаяПодсказка" id="292"/>
+							<Events>
+								<Event name="OnChange">ПоказыватьИмяТаблицыПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<CheckBoxField name="ПоказыватьОбработанныеСписки" id="284">
+							<DataPath>ПоказыватьОбработанныеСписки</DataPath>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПоказыватьОбработанныеСпискиКонтекстноеМеню" id="285"/>
+							<ExtendedTooltip name="ПоказыватьОбработанныеСпискиРасширеннаяПодсказка" id="286"/>
+							<Events>
+								<Event name="OnChange">ПоказыватьОбработанныеСпискиПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="КраткоПодробно" id="193">
 			<Title>
 				<v8:item>
@@ -770,6 +905,9 @@
 						<ContextMenu name="СпискиУправлениеПоискомКонтекстноеМеню" id="16"/>
 						<ExtendedTooltip name="СпискиУправлениеПоискомРасширеннаяПодсказка" id="17"/>
 					</SearchControlAddition>
+					<Events>
+						<Event name="OnActivateRow">СпискиПриАктивизацииСтроки</Event>
+					</Events>
 					<ChildItems>
 						<InputField name="СпискиСписокПредставление" id="18">
 							<DataPath>Списки.СписокПредставление</DataPath>
@@ -865,21 +1003,9 @@
 							<ContextMenu name="СпискиПозицияОбновленияКонтекстноеМеню" id="25"/>
 							<ExtendedTooltip name="СпискиПозицияОбновленияРасширеннаяПодсказка" id="26"/>
 						</InputField>
-						<InputField name="СпискиИмяТаблицы" id="21">
-							<DataPath>Списки.ИмяТаблицы</DataPath>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
-							<ReadOnly>true</ReadOnly>
-							<EditMode>EnterOnInput</EditMode>
-							<ContextMenu name="СпискиИмяТаблицыКонтекстноеМеню" id="22"/>
-							<ExtendedTooltip name="СпискиИмяТаблицыРасширеннаяПодсказка" id="23"/>
-						</InputField>
 						<InputField name="СпискиКоличествоЭлементов" id="33">
 							<DataPath>Списки.КоличествоЭлементов</DataPath>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
+							<Visible>false</Visible>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>8</Width>
@@ -888,9 +1014,7 @@
 						</InputField>
 						<InputField name="СпискиКоличествоОбработанныхЭлементов" id="36">
 							<DataPath>Списки.КоличествоОбработанныхЭлементов</DataPath>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
+							<Visible>false</Visible>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>8</Width>
@@ -899,9 +1023,7 @@
 						</InputField>
 						<InputField name="СпискиКоличествоКлючейДоступа" id="39">
 							<DataPath>Списки.КоличествоКлючейДоступа</DataPath>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
+							<Visible>false</Visible>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>8</Width>
@@ -910,14 +1032,20 @@
 						</InputField>
 						<InputField name="СпискиКоличествоОбработанныхКлючейДоступа" id="42">
 							<DataPath>Списки.КоличествоОбработанныхКлючейДоступа</DataPath>
-							<UserVisible>
-								<xr:Common>false</xr:Common>
-							</UserVisible>
+							<Visible>false</Visible>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
 							<Width>8</Width>
 							<ContextMenu name="СпискиКоличествоОбработанныхКлючейДоступаКонтекстноеМеню" id="43"/>
 							<ExtendedTooltip name="СпискиКоличествоОбработанныхКлючейДоступаРасширеннаяПодсказка" id="44"/>
+						</InputField>
+						<InputField name="СпискиИмяТаблицы" id="21">
+							<DataPath>Списки.ИмяТаблицы</DataPath>
+							<Visible>false</Visible>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СпискиИмяТаблицыКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="СпискиИмяТаблицыРасширеннаяПодсказка" id="23"/>
 						</InputField>
 					</ChildItems>
 				</Table>
@@ -1146,6 +1274,9 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+			<Save>
+				<Field>ПоказыватьОбработанныеСписки</Field>
+			</Save>
 		</Attribute>
 		<Attribute name="АвтообновлениеПрогресса" id="6">
 			<Title>
@@ -1207,45 +1338,17 @@
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПоследнееЗавершениеРегламентногоЗадания" id="13">
+		<Attribute name="ПоследнееЗавершениеОбновленияДоступа" id="13">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Последнее завершение регламентного задания</v8:content>
+					<v8:content>Последнее завершение обновления доступа</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:dateTime</v8:Type>
 				<v8:DateQualifiers>
 					<v8:DateFractions>DateTime</v8:DateFractions>
-				</v8:DateQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="ПоследнееЗавершениеРегламентногоЗаданияВремя" id="14">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Последнее завершение регламентного задания (время)</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:dateTime</v8:Type>
-				<v8:DateQualifiers>
-					<v8:DateFractions>Time</v8:DateFractions>
-				</v8:DateQualifiers>
-			</Type>
-		</Attribute>
-		<Attribute name="РегламентноеЗаданияВыполняетсяСВремя" id="16">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Регламентное задания выполняется с (время)</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:dateTime</v8:Type>
-				<v8:DateQualifiers>
-					<v8:DateFractions>Time</v8:DateFractions>
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
@@ -1273,6 +1376,64 @@
 					<v8:Length>0</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоказыватьКоличествоЭлементов" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать количество элементов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказыватьКоличествоЭлементов</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ПоказыватьКоличествоКлючейДоступа" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать количество ключей доступа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказыватьКоличествоКлючейДоступа</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ПоказыватьИмяТаблицы" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Показывать имя таблицы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ПоказыватьИмяТаблицы</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="КоличествоПотоковОбновленияДоступа" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество потоков обновления доступа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>5</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
 	</Attributes>
@@ -1362,72 +1523,65 @@
 					<v8:content>Включить регламентное задание</v8:content>
 				</v8:item>
 			</Title>
-			<Action>ВключитьРегламентноеЗадание</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="ПоказатьТекстОшибкиЗавершенияРегламентногоЗадания" id="8">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Показать текст ошибки завершения регламентного задания</v8:content>
-				</v8:item>
-			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Показать текст ошибки завершения регламентного задания</v8:content>
+					<v8:content>Включить регламентное задание
+"Обновление доступа на уровне записей"</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПоказатьТекстОшибкиЗавершенияРегламентногоЗадания</Action>
+			<Action>ВключитьОбновлениеДоступа</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗапуститьРегламентноеЗаданиеСейчас" id="9">
+		<Command name="ЗапуститьОбновлениеДоступаСейчас" id="9">
 			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Запустить регламентное задание сейчас</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Запустить обновление доступа сейчас</v8:content>
 				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить обновление доступа сейчас и
+выполнять до полного завершения или отмены</v8:content>
+				</v8:item>
 			</ToolTip>
-			<Action>ЗапуститьРегламентноеЗаданиеСейчас</Action>
+			<Action>ЗапуститьОбновлениеДоступаСейчас</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОтменитьИВыключитьОбновлениеДоступа" id="1">
+		<Command name="ОстановитьИЗапретитьОбновлениеДоступа" id="1">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Отменить и выключить обновление доступа</v8:content>
+					<v8:content>Остановить и запретить обновление доступа</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Отменить выполнение и выключить регламентное задание "Обновление доступа"</v8:content>
+					<v8:content>Остановить и запретить обновление доступа и отключить
+регламентное задание "Обновление доступа на уровне записей"</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ОтменитьИВыключитьОбновлениеДоступа</Action>
+			<Action>ОстановитьИЗапретитьОбновлениеДоступа</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПоказатьОбработанныеСписки" id="10">
+		<Command name="РазрешитьОбновлениеДоступа" id="11">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Показать обработанные списки</v8:content>
+					<v8:content>Разрешить обновление доступа</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Показывать списки, для которых
-обновление доступа завершено</v8:content>
+					<v8:content>Разрешить обновление доступа и включить
+регламентное задание "Обновление доступа на уровне записей"</v8:content>
 				</v8:item>
 			</ToolTip>
-			<Action>ПоказатьОбработанныеСписки</Action>
+			<Action>ВключитьОбновлениеДоступа</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>
