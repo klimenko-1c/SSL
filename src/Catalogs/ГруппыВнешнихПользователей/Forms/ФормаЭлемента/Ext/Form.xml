@@ -14,30 +14,44 @@
 		<Event name="BeforeLoadDataFromSettingsAtServer">ПриЗагрузкеДанныхИзНастроекНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<InputField name="Наименование" id="4">
-			<DataPath>Объект.Description</DataPath>
-			<FooterHorizontalAlign>Left</FooterHorizontalAlign>
-			<Width>40</Width>
-			<Wrap>false</Wrap>
-			<BorderColor>style:BorderColor</BorderColor>
-			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="НаименованиеExtendedTooltip" id="153"/>
-		</InputField>
-		<InputField name="Родитель" id="40">
-			<DataPath>Объект.Parent</DataPath>
+		<UsualGroup name="ГруппаШапка" id="241">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>В группе</v8:content>
+					<v8:content>Шапка</v8:content>
 				</v8:item>
 			</Title>
-			<ContextMenu name="РодительКонтекстноеМеню" id="41"/>
-			<ExtendedTooltip name="РодительExtendedTooltip" id="184"/>
-			<Events>
-				<Event name="OnChange">РодительПриИзменении</Event>
-				<Event name="StartChoice">РодительНачалоВыбора</Event>
-			</Events>
-		</InputField>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="242"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+					<Width>40</Width>
+					<Wrap>false</Wrap>
+					<BorderColor>style:BorderColor</BorderColor>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="153"/>
+				</InputField>
+				<InputField name="Родитель" id="40">
+					<DataPath>Объект.Parent</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В группе</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="РодительКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="РодительExtendedTooltip" id="184"/>
+					<Events>
+						<Event name="OnChange">РодительПриИзменении</Event>
+						<Event name="StartChoice">РодительНачалоВыбора</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<Pages name="СоставИРоли" id="9">
 			<Title>
 				<v8:item>

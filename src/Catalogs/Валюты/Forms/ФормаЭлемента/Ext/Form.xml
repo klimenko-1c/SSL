@@ -213,6 +213,13 @@
 											<v8:content>Наценка</v8:content>
 										</v8:item>
 									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Коэффициент, который применяется к курсу основной валюты для вычисления курса текущей валюты.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<Group>AlwaysHorizontal</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
@@ -245,13 +252,6 @@
 													<v8:content>%</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Коэффициент, который применяется к курсу основной валюты для вычисления курса текущей валюты.</v8:content>
-												</v8:item>
-											</ToolTip>
-											<ToolTipRepresentation>Button</ToolTipRepresentation>
 											<ContextMenu name="ТекстПроцентКонтекстноеМеню" id="127"/>
 											<ExtendedTooltip name="ТекстПроцентРасширеннаяПодсказка" id="128"/>
 										</LabelDecoration>

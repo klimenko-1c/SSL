@@ -497,7 +497,7 @@
 									<Group>Horizontal</Group>
 									<ExtendedTooltip name="КолонкиПервойСтрокиРасширеннаяПодсказка" id="140"/>
 									<ChildItems>
-										<LabelField name="Наименование" id="4">
+										<LabelField name="Наименование" id="4" DisplayImportance="VeryHigh">
 											<DataPath>Список.Наименование</DataPath>
 											<Title>
 												<v8:item>
@@ -509,7 +509,7 @@
 											<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 											<ExtendedTooltip name="НаименованиеExtendedTooltip" id="124"/>
 										</LabelField>
-										<LabelField name="Автор" id="12">
+										<LabelField name="Автор" id="12" DisplayImportance="Low">
 											<DataPath>Список.Автор</DataPath>
 											<ContextMenu name="АвторКонтекстноеМеню" id="13"/>
 											<ExtendedTooltip name="АвторExtendedTooltip" id="125"/>
@@ -566,7 +566,7 @@
 									<Group>Horizontal</Group>
 									<ExtendedTooltip name="КолонкиВторойСтрокиРасширеннаяПодсказка" id="142"/>
 									<ChildItems>
-										<LabelField name="Описание" id="143">
+										<LabelField name="Описание" id="143" DisplayImportance="Low">
 											<DataPath>Список.Описание</DataPath>
 											<Title>
 												<v8:item>

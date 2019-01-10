@@ -9,23 +9,37 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<InputField name="Наименование" id="4">
-			<DataPath>Объект.Description</DataPath>
-			<FooterHorizontalAlign>Left</FooterHorizontalAlign>
-			<Width>40</Width>
-			<Wrap>false</Wrap>
-			<BorderColor>style:BorderColor</BorderColor>
-			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
-			<ExtendedTooltip name="НаименованиеExtendedTooltip" id="55"/>
-		</InputField>
-		<InputField name="Родитель" id="40">
-			<DataPath>Объект.Parent</DataPath>
-			<ContextMenu name="РодительКонтекстноеМеню" id="41"/>
-			<ExtendedTooltip name="РодительExtendedTooltip" id="72"/>
-			<Events>
-				<Event name="StartChoice">РодительНачалоВыбора</Event>
-			</Events>
-		</InputField>
+		<UsualGroup name="ГруппаШапка" id="117">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="118"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+					<Width>40</Width>
+					<Wrap>false</Wrap>
+					<BorderColor>style:BorderColor</BorderColor>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="55"/>
+				</InputField>
+				<InputField name="Родитель" id="40">
+					<DataPath>Объект.Parent</DataPath>
+					<ContextMenu name="РодительКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="РодительExtendedTooltip" id="72"/>
+					<Events>
+						<Event name="StartChoice">РодительНачалоВыбора</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
 		<Pages name="СтраницыУчастникиГруппыКомментарий" id="78">
 			<Title>
 				<v8:item>

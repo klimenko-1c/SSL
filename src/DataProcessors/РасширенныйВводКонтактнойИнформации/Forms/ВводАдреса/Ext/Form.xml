@@ -570,7 +570,6 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Width>11</Width>
-																	<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
 																	<ListChoiceMode>true</ListChoiceMode>
 																	<ChooseType>false</ChooseType>
 																	<TextEdit>false</TextEdit>
@@ -629,8 +628,6 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Width>11</Width>
-																	<ChoiceButton>true</ChoiceButton>
-																	<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
 																	<ListChoiceMode>true</ListChoiceMode>
 																	<QuickChoice>true</QuickChoice>
 																	<ChooseType>false</ChooseType>
@@ -704,8 +701,6 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Width>11</Width>
-																	<ChoiceButton>true</ChoiceButton>
-																	<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
 																	<QuickChoice>true</QuickChoice>
 																	<ChooseType>false</ChooseType>
 																	<InputHint>
