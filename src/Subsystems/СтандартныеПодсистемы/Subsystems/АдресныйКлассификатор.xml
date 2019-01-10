@@ -17,8 +17,6 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АдресныйКлассификаторКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АдресныйКлассификатор</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">40d3ed07-3b56-4c9f-8b96-d94455202ef0</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">e51ae56c-d311-46b7-8d4c-19a432f4cd16</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИсточникДанныхАдресногоКлассификатора</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.АдресныйКлассификаторПовтИсп</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">XDTOPackage.АдресныйКлассификатор</xr:Item>
@@ -35,6 +33,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПричиныИзмененияАдресныхСведений</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.СлужебныеАдресныеСведения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.УровниСокращенийАдресныхСведений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЗемельныеУчастки</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

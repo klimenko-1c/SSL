@@ -14,6 +14,7 @@
 				<v8:Type>cfg:InformationRegisterRecordSet.ДанныеПроизводственногоКалендаря</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ПодпискиПолучателей</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.УдалитьОбластиДанных</v8:Type>
+				<v8:Type>cfg:InformationRegisterRecordSet.ЗемельныеУчастки</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.УдалитьБлокировкиСеансовОбластиДанных</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ПравилаДляОбменаДанными</v8:Type>
 				<v8:Type>cfg:InformationRegisterRecordSet.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</v8:Type>

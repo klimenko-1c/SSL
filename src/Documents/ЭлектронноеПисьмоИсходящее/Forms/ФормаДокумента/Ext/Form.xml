@@ -228,6 +228,7 @@
 						<Event name="BeforeDeleteRow">СписокПолучателейПередУдалением</Event>
 						<Event name="BeforeEditEnd">СписокПолучателейПередОкончаниемРедактирования</Event>
 						<Event name="OnStartEdit">СписокПолучателейПриНачалеРедактирования</Event>
+						<Event name="OnChange">СписокПолучателейПриИзменении</Event>
 					</Events>
 					<ChildItems>
 						<InputField name="СписокПолучателейВариантОтправки" id="412">

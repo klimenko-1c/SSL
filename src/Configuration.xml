@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Фирма "1С"</Vendor>
-			<Version>3.0.2.156</Version>
+			<Version>3.0.2.164</Version>
 			<UpdateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</UpdateCatalogAddress>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -999,7 +999,6 @@
 			<CommonModule>СообщенияУправлениеРезервнымКопированиемОбработчикСообщения_1_0_2_1</CommonModule>
 			<CommonModule>СообщенияУправлениеРезервнымКопированиемОбработчикСообщения_1_0_3_1</CommonModule>
 			<CommonModule>СообщенияУправлениеРезервнымКопированиемРеализация</CommonModule>
-			<CommonModule>СтандартныеПодсистемыБезопасныйРежим</CommonModule>
 			<CommonModule>СтандартныеПодсистемыВызовСервера</CommonModule>
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
@@ -1906,6 +1905,7 @@
 			<InformationRegister>ЗамерыОперацииСтатистики</InformationRegister>
 			<InformationRegister>ЗамерыСтатистики</InformationRegister>
 			<InformationRegister>ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов</InformationRegister>
+			<InformationRegister>ЗемельныеУчастки</InformationRegister>
 			<InformationRegister>ЗначенияГруппДоступа</InformationRegister>
 			<InformationRegister>ЗначенияГруппДоступаПоУмолчанию</InformationRegister>
 			<InformationRegister>ИдентификаторыОбъектовВерсийРасширений</InformationRegister>

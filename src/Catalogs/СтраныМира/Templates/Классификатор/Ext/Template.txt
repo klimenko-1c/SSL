@@ -824,7 +824,7 @@
 		<Value>LY</Value>
 		<Value>LBY</Value>
 		<Value>434</Value>
-		<Value>Ливия</Value>
+		<Value>Государство Ливия</Value>
 	</row>
 	<row>
 		<Value>ЛИТВА</Value>
@@ -1275,11 +1275,11 @@
 		<Value>Королевство Саудовская Аравия</Value>
 	</row>
 	<row>
-		<Value>СВАЗИЛЕНД</Value>
+		<Value>ЭСВАТИНИ</Value>
 		<Value>SZ</Value>
 		<Value>SWZ</Value>
 		<Value>748</Value>
-		<Value>Королевство Свазиленд</Value>
+		<Value>Королевство Эсватини</Value>
 	</row>
 	<row>
 		<Value>СВЯТАЯ ЕЛЕНА, ОСТРОВ ВОЗНЕСЕНИЯ, ТРИСТАН-ДА-КУНЬЯ</Value>

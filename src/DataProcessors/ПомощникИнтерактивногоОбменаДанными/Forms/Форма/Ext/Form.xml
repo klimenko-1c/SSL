@@ -3065,17 +3065,6 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ОбменЧерезПодключениеККорреспонденту" id="22">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Обмен через подключение к корреспонденту</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:boolean</v8:Type>
-			</Type>
-		</Attribute>
 		<Attribute name="WSЗапомнитьПароль" id="24">
 			<Title>
 				<v8:item>
@@ -3499,6 +3488,17 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Режим дополнения выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ОбменЧерезВнешнееСоединение" id="64">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обмен через внешнее соединение</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

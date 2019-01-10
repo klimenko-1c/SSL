@@ -1229,6 +1229,10 @@
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
 	<Item>
+		<Metadata>InformationRegister.ЗемельныеУчастки</Metadata>
+		<AutoRecord>Deny</AutoRecord>
+	</Item>
+	<Item>
 		<Metadata>InformationRegister.КлючиДоступаКОбъектам</Metadata>
 		<AutoRecord>Deny</AutoRecord>
 	</Item>
