@@ -1482,7 +1482,8 @@
 			</Picture>
 			<Action>ОткрытьФайлДляПросмотра</Action>
 			<Representation>TextPicture</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="СохранитьКак" id="4">
 			<Title>
@@ -1503,7 +1504,8 @@
 			</Picture>
 			<Action>СохранитьКак</Action>
 			<Representation>Picture</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="ОткрытьКаталогФайла" id="3">
 			<Title>
@@ -1519,7 +1521,8 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОткрытьКаталогФайла</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="Подписать" id="5">
 			<Title>
@@ -1540,7 +1543,8 @@
 			</Picture>
 			<Action>Подписать</Action>
 			<Representation>TextPicture</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="Редактировать" id="9">
 			<Title>
@@ -1562,7 +1566,8 @@
 			</Picture>
 			<Action>Редактировать</Action>
 			<Representation>TextPicture</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="ЗакончитьРедактирование" id="10">
 			<Title>
@@ -1583,7 +1588,8 @@
 			</Picture>
 			<Action>ЗакончитьРедактирование</Action>
 			<Representation>Text</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="Освободить" id="13">
 			<Title>
@@ -1604,7 +1610,8 @@
 			</Picture>
 			<Action>Освободить</Action>
 			<Representation>TextPicture</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="ОбновитьИзФайлаНаДиске" id="14">
 			<Title>
@@ -1621,7 +1628,8 @@
 			</ToolTip>
 			<Action>ОбновитьИзФайлаНаДиске</Action>
 			<Representation>Text</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="СохранитьВместеСЭП" id="11">
 			<Title>
@@ -1637,7 +1645,8 @@
 				</v8:item>
 			</ToolTip>
 			<Action>СохранитьВместеСЭП</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="ДобавитьЭПИзФайла" id="12">
 			<Title>
@@ -1653,7 +1662,8 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ДобавитьЭПИзФайла</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="Зашифровать" id="15">
 			<Title>
@@ -1673,7 +1683,8 @@
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Action>Зашифровать</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="Расшифровать" id="16">
 			<Title>
@@ -1689,7 +1700,8 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Расшифровать</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="ОткрытьСвойстваФайла" id="1">
 			<Title>
@@ -1711,7 +1723,8 @@
 			</Picture>
 			<Action>ОткрытьСвойстваФайла</Action>
 			<Representation>Picture</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="Добавить" id="6">
 			<Title>
@@ -1749,7 +1762,8 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>Скопировать</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="Обновить" id="17">
 			<Title>
@@ -1807,7 +1821,8 @@
 			</Picture>
 			<Action>Отправить</Action>
 			<Representation>TextPicture</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="Печать" id="20">
 			<Title>
@@ -1828,7 +1843,8 @@
 			</Picture>
 			<Action>Печать</Action>
 			<Representation>TextPicture</Representation>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="Предпросмотр" id="21">
 			<Title>
@@ -1919,7 +1935,8 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СохранитьПапку</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="ЗагрузитьПапку" id="25">
 			<Title>
@@ -1987,7 +2004,8 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>Занять</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="ПечатьСоШтампом" id="29">
 			<Title>
@@ -2003,7 +2021,8 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПечатьСоШтампом</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="ПереместитьВГруппу" id="30">
 			<Title>
@@ -2024,7 +2043,8 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>ПеренестиВГруппу</Action>
-			<CurrentRowUse>DontUse</CurrentRowUse>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="УстановитьПометкуУдаления" id="31">
 			<Title>
@@ -2044,6 +2064,8 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>УстановитьПометкуУдаления</Action>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId>6</AssociatedTableElementId>
 		</Command>
 		<Command name="ПоказыватьСлужебныеФайлы" id="32">
 			<Title>

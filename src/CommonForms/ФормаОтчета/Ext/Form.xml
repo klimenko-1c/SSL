@@ -1077,6 +1077,12 @@
 					<ChildItems>
 						<InputField name="Период1ДатаНачала" id="780">
 							<DataPath>Период1.StartDate</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период (дата начала)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -1098,6 +1104,12 @@
 						</LabelDecoration>
 						<InputField name="Период1ДатаОкончания" id="783">
 							<DataPath>Период1.EndDate</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период (дата окончания)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -1129,6 +1141,12 @@
 					<ChildItems>
 						<InputField name="Период2ДатаНачала" id="795">
 							<DataPath>Период2.StartDate</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период (дата начала)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -1150,6 +1168,12 @@
 						</LabelDecoration>
 						<InputField name="Период2ДатаОкончания" id="801">
 							<DataPath>Период2.EndDate</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период (дата окончания)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
 							<HorizontalStretch>false</HorizontalStretch>

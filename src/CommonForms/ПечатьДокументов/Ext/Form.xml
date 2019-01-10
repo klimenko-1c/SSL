@@ -28,7 +28,6 @@
 					<v8:content>Копий и автосумма</v8:content>
 				</v8:item>
 			</Title>
-			<Group>AlwaysHorizontal</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаКоманднаяПанельExtendedTooltip" id="143"/>
@@ -92,7 +91,7 @@
 								<Event name="OnChange">КопийПриИзменении</Event>
 							</Events>
 						</InputField>
-						<CheckBoxField name="ФлажокПодписьИПечать" id="281">
+						<CheckBoxField name="ФлажокПодписьИПечать" id="281" DisplayImportance="VeryHigh">
 							<DataPath>ПодписьИПечать</DataPath>
 							<TitleLocation>Right</TitleLocation>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>

@@ -69,7 +69,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DefinedType.ЗначениеДоступаОбъект</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ЗаполнитьНаборыЗначенийДоступаТабличныхЧастей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ОбновитьГруппыВладельцевНастроекПрав</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ОграничениеДоступаНаУровнеЗаписейВключено</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ОграничениеДоступаНаУровнеЗаписейИспользуется</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ВерсииШаблоновОграниченияДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.РазрешенныйНаборГруппДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ОграничениеДоступаНаУровнеЗаписейУниверсально</xr:Item>
@@ -79,7 +79,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.СпискиСОграничениемЧерезКлючиДоступаПользователейИГруппДоступа</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.СпискиСОграничениемПоПолям</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.СпискиСОтключеннымОграничениемЧтения</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">10620b9b-283c-4252-b839-5b71ce6e804b</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПроверитьДоступПередЗаписью</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПроверитьДоступПередЗаписьюДокумента</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПроверитьДоступПередЗаписьюНабораЗаписей</xr:Item>
@@ -114,6 +113,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.РазрешенныйПользователь</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.РазрешенныйНаборГруппПользователей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.РазрешенныйПустойНаборГруппДоступа</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">SessionParameter.ТаблицыРасширенийСОграничениемДоступа</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

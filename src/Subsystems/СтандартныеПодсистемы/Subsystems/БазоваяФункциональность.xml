@@ -257,6 +257,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛокализацияСервер</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛокализацияКлиент</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ЛокализацияКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СтроковыеФункцииКлиентСерверРФ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.СтандартныеПодсистемыКлиентСерверЛокализация</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

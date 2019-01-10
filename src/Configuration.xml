@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Фирма "1С"</Vendor>
-			<Version>3.0.2.139</Version>
+			<Version>3.0.2.150</Version>
 			<UpdateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</UpdateCatalogAddress>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -532,7 +532,7 @@
 			<SessionParameter>ОбластьДанныхЗначение</SessionParameter>
 			<SessionParameter>ОбластьДанныхИспользование</SessionParameter>
 			<SessionParameter>ОбновитьВерсиюДатЗапретаИзмененияПослеЗагрузкиДанных</SessionParameter>
-			<SessionParameter>ОграничениеДоступаНаУровнеЗаписейВключено</SessionParameter>
+			<SessionParameter>ОграничениеДоступаНаУровнеЗаписейИспользуется</SessionParameter>
 			<SessionParameter>ОграничениеДоступаНаУровнеЗаписейУниверсально</SessionParameter>
 			<SessionParameter>ОтключениеОбновленияКлючейДоступа</SessionParameter>
 			<SessionParameter>ОтмененныеДлительныеОперации</SessionParameter>
@@ -558,6 +558,7 @@
 			<SessionParameter>СпискиСОграничениемЧерезКлючиДоступаПользователей</SessionParameter>
 			<SessionParameter>СпискиСОграничениемЧерезКлючиДоступаПользователейИГруппДоступа</SessionParameter>
 			<SessionParameter>СпискиСОтключеннымОграничениемЧтения</SessionParameter>
+			<SessionParameter>ТаблицыРасширенийСОграничениемДоступа</SessionParameter>
 			<SessionParameter>ТаблицыСОтдельнымиНастройкамиПрав</SessionParameter>
 			<SessionParameter>ТекущийВнешнийПользователь</SessionParameter>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
@@ -1003,9 +1004,11 @@
 			<CommonModule>СтандартныеПодсистемыГлобальный</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиент</CommonModule>
 			<CommonModule>СтандартныеПодсистемыКлиентПовтИсп</CommonModule>
+			<CommonModule>СтандартныеПодсистемыКлиентСерверЛокализация</CommonModule>
 			<CommonModule>СтандартныеПодсистемыПовтИсп</CommonModule>
 			<CommonModule>СтандартныеПодсистемыСервер</CommonModule>
 			<CommonModule>СтроковыеФункцииКлиентСервер</CommonModule>
+			<CommonModule>СтроковыеФункцииКлиентСерверРФ</CommonModule>
 			<CommonModule>СтруктураПодчиненностиПереопределяемый</CommonModule>
 			<CommonModule>СтруктураПодчиненностиСлужебный</CommonModule>
 			<CommonModule>ТекущиеДелаПереопределяемый</CommonModule>

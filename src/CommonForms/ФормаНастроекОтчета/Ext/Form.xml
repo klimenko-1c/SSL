@@ -2644,15 +2644,7 @@
 							</xr:Value>
 						</xr:Item>
 					</ChoiceList>
-					<ContextMenu name="РасширенныйРежимКонтекстноеМеню" id="114">
-						<ChildItems>
-							<Button name="РасширенныйРежимКонтекстноеМенюИзменитьФорму" id="1342">
-								<Type>CommandBarButton</Type>
-								<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
-								<ExtendedTooltip name="РасширенныйРежимКонтекстноеМенюИзменитьФормуРасширеннаяПодсказка" id="1343"/>
-							</Button>
-						</ChildItems>
-					</ContextMenu>
+					<ContextMenu name="РасширенныйРежимКонтекстноеМеню" id="114"/>
 					<ExtendedTooltip name="РасширенныйРежимРасширеннаяПодсказка" id="115">
 						<Title formatted="false">
 							<v8:item>
@@ -2760,6 +2752,12 @@
 					<ChildItems>
 						<InputField name="Период1ДатаНачала" id="1245">
 							<DataPath>Период1.StartDate</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период (дата начала)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -2781,6 +2779,12 @@
 						</LabelDecoration>
 						<InputField name="Период1ДатаОкончания" id="1251">
 							<DataPath>Период1.EndDate</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период (дата окончания)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -2812,6 +2816,12 @@
 					<ChildItems>
 						<InputField name="Период2ДатаНачала" id="1346">
 							<DataPath>Период2.StartDate</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период (дата начала)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -2833,6 +2843,12 @@
 						</LabelDecoration>
 						<InputField name="Период2ДатаОкончания" id="1352">
 							<DataPath>Период2.EndDate</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Период (дата окончания)</v8:content>
+								</v8:item>
+							</Title>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
 							<HorizontalStretch>false</HorizontalStretch>

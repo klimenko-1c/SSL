@@ -369,26 +369,26 @@
 						</Table>
 					</ChildItems>
 				</UsualGroup>
+				<InputField name="АдресОтвета" id="47">
+					<DataPath>АдресОтвета</DataPath>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Введите адрес электронной почты на который вы хотите получить ответ на это письмо</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Wrap>false</Wrap>
+					<ContextMenu name="АдресОтветаКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="АдресОтветаExtendedTooltip" id="66"/>
+					<Events>
+						<Event name="OnChange">УстановитьПризнакМодифицированностиФормы</Event>
+						<Event name="Clearing">АдресОтветаОчистка</Event>
+						<Event name="TextEditEnd">АдресОтветаОкончаниеВводаТекста</Event>
+						<Event name="ChoiceProcessing">АдресОтветаОбработкаВыбора</Event>
+					</Events>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
-		<InputField name="АдресОтвета" id="47">
-			<DataPath>АдресОтвета</DataPath>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Введите адрес электронной почты на который вы хотите получить ответ на это письмо</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Wrap>false</Wrap>
-			<ContextMenu name="АдресОтветаКонтекстноеМеню" id="48"/>
-			<ExtendedTooltip name="АдресОтветаExtendedTooltip" id="66"/>
-			<Events>
-				<Event name="OnChange">УстановитьПризнакМодифицированностиФормы</Event>
-				<Event name="Clearing">АдресОтветаОчистка</Event>
-				<Event name="TextEditEnd">АдресОтветаОкончаниеВводаТекста</Event>
-				<Event name="ChoiceProcessing">АдресОтветаОбработкаВыбора</Event>
-			</Events>
-		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="ПочтовыйАдресПолучателя" id="1">

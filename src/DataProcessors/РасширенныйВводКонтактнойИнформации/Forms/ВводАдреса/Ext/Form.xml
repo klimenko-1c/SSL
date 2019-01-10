@@ -570,7 +570,6 @@
 																		</v8:item>
 																	</ToolTip>
 																	<Width>11</Width>
-																	<ChoiceButton>true</ChoiceButton>
 																	<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
 																	<ListChoiceMode>true</ListChoiceMode>
 																	<ChooseType>false</ChooseType>
