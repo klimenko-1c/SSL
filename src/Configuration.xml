@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Фирма "1С"</Vendor>
-			<Version>3.0.2.175</Version>
+			<Version>3.0.2.195</Version>
 			<UpdateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</UpdateCatalogAddress>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -139,7 +139,7 @@
 			<Copyright>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Copyright © ООО "1С-Софт", 2009-2018. Все права защищены</v8:content>
+					<v8:content>Copyright © ООО "1С-Софт", 2009-2019. Все права защищены</v8:content>
 				</v8:item>
 			</Copyright>
 			<VendorInformationAddress>
@@ -678,6 +678,7 @@
 			<CommonModule>БизнесПроцессыИЗадачиПереопределяемый</CommonModule>
 			<CommonModule>БизнесПроцессыИЗадачиСервер</CommonModule>
 			<CommonModule>БизнесПроцессыИЗадачиСобытия</CommonModule>
+			<CommonModule>БлокировкаРаботыСВнешнимиРесурсами</CommonModule>
 			<CommonModule>ВариантыОтчетов</CommonModule>
 			<CommonModule>ВариантыОтчетовВызовСервера</CommonModule>
 			<CommonModule>ВариантыОтчетовКлиент</CommonModule>

@@ -141,12 +141,6 @@
 									<v8:content>1 поток</v8:content>
 								</v8:item>
 							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа количество потоков обновления доступа1</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>AlwaysHorizontal</Group>
 							<Behavior>PopUp</Behavior>
 							<Representation>None</Representation>

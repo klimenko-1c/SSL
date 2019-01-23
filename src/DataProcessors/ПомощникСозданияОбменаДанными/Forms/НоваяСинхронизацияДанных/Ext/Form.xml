@@ -210,6 +210,50 @@
 												</UsualGroup>
 											</ChildItems>
 										</Page>
+										<Page name="СтраницаВнешниеСистемыНеПодключенаИнтернетПоддержкаВМоделиСервиса" id="67">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страница внешние системы не подключена интернет поддержка в модели сервиса</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="СтраницаВнешниеСистемыНеПодключенаИнтернетПоддержкаВМоделиСервисаРасширеннаяПодсказка" id="68"/>
+											<ChildItems>
+												<UsualGroup name="Группа5" id="69">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа3</v8:content>
+														</v8:item>
+													</Title>
+													<Group>AlwaysHorizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="70"/>
+													<ChildItems>
+														<PictureDecoration name="Декорация7" id="74">
+															<Picture>
+																<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
+																<xr:LoadTransparent>true</xr:LoadTransparent>
+															</Picture>
+															<ContextMenu name="Декорация7КонтекстноеМеню" id="75"/>
+															<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="76"/>
+														</PictureDecoration>
+														<LabelDecoration name="Декорация6" id="71">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Ошибка аутентификации в сервисе Обмена данными с внешними системами.</v8:content>
+																</v8:item>
+															</Title>
+															<ContextMenu name="Декорация6КонтекстноеМеню" id="72"/>
+															<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="73"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</Page>
 										<Page name="СтраницаВнешниеСистемыОшибка" id="41">
 											<Title>
 												<v8:item>

@@ -31,12 +31,6 @@
 				</InputField>
 				<InputField name="Родитель" id="5">
 					<DataPath>Объект.Parent</DataPath>
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Входит в группу</v8:content>
-						</v8:item>
-					</Title>
 					<EditMode>EnterOnInput</EditMode>
 					<HorizontalStretch>true</HorizontalStretch>
 					<ContextMenu name="РодительКонтекстноеМеню" id="6"/>

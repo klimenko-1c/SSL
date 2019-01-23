@@ -45,7 +45,7 @@
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Fixed</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
-			<CheckUnique>true</CheckUnique>
+			<CheckUnique>false</CheckUnique>
 			<Autonumbering>false</Autonumbering>
 			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<StandardAttributes>
@@ -215,7 +215,7 @@
 					<xr:ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа банков, в которую входит данный банк</v8:content>
+							<v8:content>Регион, в котором находится банк</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>
@@ -231,10 +231,10 @@
 					<xr:Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Группа банков</v8:content>
+							<v8:content>Регион</v8:content>
 						</v8:item>
 					</xr:Synonym>
-					<xr:Comment>Группа банков</xr:Comment>
+					<xr:Comment/>
 					<xr:FullTextSearch>Use</xr:FullTextSearch>
 					<xr:ChoiceParameterLinks/>
 					<xr:FillValue xsi:type="xr:DesignTimeRef">Catalog.КлассификаторБанков.EmptyRef</xr:FillValue>
@@ -279,7 +279,7 @@
 				</xr:StandardAttribute>
 				<xr:StandardAttribute name="Code">
 					<xr:LinkByType/>
-					<xr:FillChecking>ShowError</xr:FillChecking>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
 					<xr:MultiLine>false</xr:MultiLine>
 					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
 					<xr:CreateOnInput>Auto</xr:CreateOnInput>
@@ -327,7 +327,7 @@
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm>Catalog.КлассификаторБанков.Form.ФормаЭлемента</DefaultObjectForm>
-			<DefaultFolderForm/>
+			<DefaultFolderForm>Catalog.КлассификаторБанков.Form.ФормаГруппы</DefaultFolderForm>
 			<DefaultListForm>Catalog.КлассификаторБанков.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm>Catalog.КлассификаторБанков.Form.ФормаВыбора</DefaultChoiceForm>
 			<DefaultFolderChoiceForm/>
@@ -895,6 +895,7 @@
 			<Form>ФормаВыбора</Form>
 			<Form>ФормаСписка</Form>
 			<Form>ФормаЭлемента</Form>
+			<Form>ФормаГруппы</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

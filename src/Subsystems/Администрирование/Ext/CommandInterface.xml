@@ -516,6 +516,11 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="0:37e36a72-4f28-44c7-9c73-f4c445f7722e">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 		<Command name="DataProcessor.ИнформацияПриЗапуске.Command.ИнформацияПриЗапуске">
 			<Visibility>
 				<xr:Common>false</xr:Common>
@@ -737,6 +742,9 @@
 		<Command name="InformationRegister.АдресныеОбъекты.Command.ПодключитьИнтернетПоддержку">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
+		<Command name="0:068cae63-6fae-4330-96ed-1c252842aa8b">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
 		<Command name="0:4883cb3d-4ab3-4e0e-bddb-ae8852547a3c">
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 		</Command>
@@ -933,6 +941,9 @@
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
 		<Command name="CommonForm.УстановленныеИсправления.StandardCommand.Open">
+			<CommandGroup>ActionsPanelTools</CommandGroup>
+		</Command>
+		<Command name="0:37e36a72-4f28-44c7-9c73-f4c445f7722e">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 		</Command>
 	</CommandsOrder>
